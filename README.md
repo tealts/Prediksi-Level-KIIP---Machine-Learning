@@ -164,7 +164,7 @@ Kedua model mencapai performa yang sangat tinggi (>98% pada seluruh metrik). Hal
 Model terbaik (**Random Forest**) di-deploy sebagai aplikasi interaktif menggunakan **Gradio** dan di-hosting pada **Hugging Face Spaces**, sehingga pengguna dapat memasukkan data kemampuan bahasa dan memperoleh prediksi level KIIP secara langsung melalui antarmuka web.
 
 - Source code deployment tersedia pada directory utama yaitu : (`app.py`, `requirements.txt`, serta beberapa file berformat(.pkl)).
-- Link Hugging Face Space: https://huggingface.co/spaces/HawitsTercinta/PrediksiKIIP
+- Link Hugging Face Space: https://huggingface.co/spaces/KelompokKorea/PrediksiKIIP
 
 ## Kesimpulan
 Proyek ini berhasil membangun sistem prediksi level penempatan KIIP menggunakan algoritma Random Forest dan XGBoost, dengan performa yang sangat baik pada kedua model (akurasi >98%). Model Random Forest dipilih sebagai model final karena menunjukkan performa sedikit lebih tinggi dan stabil. Sistem ini diharapkan dapat membantu penyelenggara program KIIP dalam melakukan penempatan level peserta secara lebih cepat, konsisten, dan objektif, sekaligus memberikan insight mengenai fitur-fitur yang paling menentukan level kemampuan bahasa peserta.
